@@ -1,6 +1,6 @@
-### EE Github Documentation
+## EE Github Documentation
 
-## Files
+### Files
 
 - Tool Changer Prototypes
     - Ball Bearing Mech Changer
