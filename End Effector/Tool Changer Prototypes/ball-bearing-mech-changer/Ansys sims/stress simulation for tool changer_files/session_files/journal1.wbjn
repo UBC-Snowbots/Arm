@@ -1,0 +1,67 @@
+# encoding: utf-8
+# 2024 R2
+SetScriptVersion(Version="24.2.133")
+template1 = GetTemplate(
+    TemplateName="Static Structural",
+    Solver="ANSYS")
+system1 = template1.CreateSystem()
+favorites1 = EngData.LoadFavoriteItems()
+library1 = EngData.OpenLibrary(
+    Name="General Materials",
+    Source="General_Materials.xml")
+engineeringData1 = system1.GetContainer(ComponentName="Engineering Data")
+matl1 = engineeringData1.CreateMaterial(Name="pla")
+matlProp1 = matl1.CreateProperty(
+    Name="Elasticity",
+    Behavior="Anisotropic",
+    Qualifiers={"Definition": "", "Behavior": "Anisotropic"})
+matlProp2 = matl1.CreateProperty(
+    Name="Density",
+    Qualifiers={"Definition": "", "Behavior": ""})
+matlProp2.SetVariableProperty(
+    VariableName="Density",
+    Property="Unit",
+    Value="g cm^-3")
+matlProp2.SetData(
+    Index=-1,
+    Variables=["Density"],
+    Values=[["1.24 [g cm^-3]"]])
+matlProp1.Delete(Behavior="Anisotropic")
+matlProp3 = matl1.CreateProperty(
+    Name="Elasticity",
+    Behavior="Isotropic",
+    Qualifiers={"Definition": "", "Behavior": "Isotropic"})
+matlProp3.SetData(
+    SheetName="Elasticity",
+    SheetQualifiers={"Definition": "", "Behavior": "Isotropic", "Derive from": "Young's Modulus and Poisson's Ratio"},
+    Index=-1,
+    Variables=["Young's Modulus"],
+    Values=[["3500000000 [Pa]"]])
+matlProp3.SetData(
+    SheetName="Elasticity",
+    SheetQualifiers={"Definition": "", "Behavior": "Isotropic", "Derive from": "Young's Modulus and Poisson's Ratio"},
+    Variables=["Poisson's Ratio"],
+    Values=[["0.34"]])
+matl1.SetSuppression(Suppressed=True)
+matl1.SetSuppression(Suppressed=False)
+material1 = engineeringData1.GetMaterial(Name="Structural Steel")
+material1.SetSuppression(Suppressed=True)
+material1.Delete()
+geometry1 = system1.GetContainer(ComponentName="Geometry")
+geometry1.SetFile(FilePath=GetAbsoluteUserPathName("GitHub/Arm/End Effector/Tool Changer Prototypes/ball-bearing-mech-changer/Ansys sims/BT-0001.IGS"))
+modelComponent1 = system1.GetComponent(Name="Model")
+modelComponent1.Refresh()
+model1 = system1.GetContainer(ComponentName="Model")
+model1.Edit()
+unitSystem1 = SetProjectUnitSystem(UnitSystemName="NMMTON_STANDARD")
+geometry1.Edit(IsDiscoveryGeometry=True)
+modelComponent1.Refresh()
+setupComponent1 = system1.GetComponent(Name="Setup")
+setupComponent1.Refresh()
+setup1 = system1.GetContainer(ComponentName="Setup")
+setup1.Edit()
+Save(Overwrite=True)
+Save(Overwrite=True)
+geometry1.Exit()
+model1.Exit()
+Save(Overwrite=True)
