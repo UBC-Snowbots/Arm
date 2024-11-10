@@ -1,0 +1,16 @@
+[StartTime]
+link 2_sim-link 2 delfection.MFC=
+[SolverState]
+link 2_sim-link 2 delfection.MFC=2
+[MainFrame]
+link 2_sim-link 2 delfection.MFC=MCAAAAAAAAAAAAAABAAAAAAAPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPMECAAAAAHHBAAAAAELDAAAAAKECAAAAA
+[ShowMin]
+link 2_sim-link 2 delfection.MFC=No
+[SolverType]
+link 2_sim-link 2 delfection.MFC=Linear Analysis
+[StudyType]
+link 2_sim-link 2 delfection.MFC=0
+[StudyName]
+link 2_sim-link 2 delfection.MFC=link 2 delfection
+[Solver]
+link 2_sim-link 2 delfection.MFC=Sparse
