@@ -1,0 +1,13 @@
+﻿"Stator_OD"= 68'No Tolerance given
+"A"=18.34
+"Rotor_ID"= 34'No Tolerance Given
+"back_bearing_Thickness"= 20'Currently non-sense
+"back_bearing_OD"= 60'currently non-sense
+"Stator_Gap"= 0.0375'+- 0.0125 (From 1.3.3.1 Kollmorgen manual)
+"Back_mount_hole"= 1.75'To be tapped to M2 (USE LOCKTITE)
+"facePlate_Mount_Hole"= 5.75'To be tapped to M6
+"final_shaftD"= 8'NEMA 23 shaft diameter. Should fit with harmonic?
+"final_shaftL"= 50'random length. Idk
+"back_bearing_ID"= 40'Random number
+"back_bearing_IDOD"= 45'Random number, OD of the inner bearing ring
+"rotor_shaftD"= "Rotor_ID" - (0.0185)*2'+-0.0065 (from manual)
