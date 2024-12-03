@@ -1,5 +1,5 @@
 ﻿"Stator_OD"= 68'No Tolerance given
-"A"=18.34
+"A"=18.34 'taken off spec sheet for 06808 (A)
 "Rotor_ID"= 34'No Tolerance Given
 "back_bearing_Thickness"= 8'randomish, thinnest off mcmaster
 "back_bearing_OD"= 25'currently non-sense
@@ -16,4 +16,4 @@
 "front_bearing_IDOD"= 14'random
 "front_bearing_Thickness"= 5'randomish, thinnest off mcmaster
 "rotor_thickness"= 2.4'measured off CAD
-"rotor_height"= 14.8'measured off CAD
+"rotor_height"= 14.76'+-0.08 taken off spec sheet for 06808 (C)
