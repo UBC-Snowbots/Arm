@@ -9,7 +9,7 @@
 "final_shaftD"= 8'NEMA 23 shaft diameter. Should fit with harmonic?
 "final_shaftL"= 50'random length. Idk
 "back_bearing_ID"= 15'Random number
-"back_bearing_IDOD"= 20'Random number, OD of the inner bearing ring
+"back_bearing_IDOD"= 18'Random number, OD of the inner bearing ring
 "rotor_shaftD"= "Rotor_ID" - (0.0185)*2'+-0.0065 (from manual)
 "front_bearing_ID"= 12'random
 "front_bearing_OD"= 20'random
@@ -17,3 +17,5 @@
 "front_bearing_Thickness"= 5'randomish, thinnest off mcmaster
 "rotor_thickness"= 2.4'measured off CAD
 "rotor_height"= 14.76'+-0.08 taken off spec sheet for 06808 (C)
+"B"= 8.2'+-0.35 taken off spec sheet for 06808 (C)
+
