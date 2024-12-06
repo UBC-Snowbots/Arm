@@ -19,4 +19,9 @@
 "rotor_thickness"= 2.4'measured off CAD
 "rotor_height"= 32.86'+-0.075 taken off spec sheet for 06826 (C)
 "B"= 26.3'+-0.35 taken off spec sheet for 06826
+"key_L"= 20'-0.2 https://www.mcmaster.com/2977N19/
+"key_H"= 4'-0.03
+"key_W"= 4'-0.03
+"harmon_keyH"= 13.8'+0.1
+"harmon_coupleL"= 21.5' taken from CAD
 
