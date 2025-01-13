@@ -1,0 +1,3 @@
+Edit in the assembly as everything is a reference.
+
+Then open the part separately to export. 
