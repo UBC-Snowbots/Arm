@@ -9,5 +9,6 @@
 - Big Gripper
 	- Gripper End Effector
 	- Derivative of Last Year's End Effector
+	- Folder also contains copy of 2024 (old) end effector -> as in the entire CAD
 - Percision End Effector
 	- Contains gripper mechanism
