@@ -1,7 +1,4 @@
-﻿"L1L"=500
-"L1Thick"=6.35
-"Harm-Drive-Outer"=74.5
-"L1-Spacing"=115.65
-"L-Bracket-HoleToWall"=12.5
-"L-Bracket-HoleToSide"=11
-"Bracket-Hole-D"=6.8
+﻿"L1L"=500
+"L1Thick"=6.35
+"Harm-Drive-Outer"=74.5
+"L1-Spacing"=115.65
