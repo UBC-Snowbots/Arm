@@ -10,5 +10,11 @@
 	- Gripper End Effector
 	- Derivative of Last Year's End Effector
 	- Folder also contains copy of 2024 (old) end effector -> as in the entire CAD
+	- Folder also has a copy of the maxxon motor 
 - Percision End Effector
-	- Contains gripper mechanism
+	- CoreXY 
+		- CoreXY for the end effector
+		- Contains all housing and CAD 
+	- Gripper Mechanism
+		- Contains cad for the gripper mechanism
+		- Contains cad for the actuator ("poking thingy" folder) 
