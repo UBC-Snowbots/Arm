@@ -1,0 +1,16 @@
+[StartTime]
+link2_tube-deflect with new holes.MFC=2s
+[SolverState]
+link2_tube-deflect with new holes.MFC=2
+[MainFrame]
+link2_tube-deflect with new holes.MFC=MCAAAAAAAAAAAAAABAAAAAAAPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPMECAAAAAHHBAAAAAELDAAAAAKECAAAAA
+[ShowMin]
+link2_tube-deflect with new holes.MFC=No
+[SolverType]
+link2_tube-deflect with new holes.MFC=Linear Analysis
+[StudyType]
+link2_tube-deflect with new holes.MFC=0
+[StudyName]
+link2_tube-deflect with new holes.MFC=deflect with new holes
+[Solver]
+link2_tube-deflect with new holes.MFC=Sparse
