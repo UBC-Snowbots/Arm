@@ -1,0 +1,28 @@
+ISO-10303-21;
+HEADER;
+FILE_DESCRIPTION (( 'STEP AP214' ),
+    '1' );
+FILE_NAME ('Dif gear spacing ring.STEP',
+    '2025-06-22T20:45:20',
+    ( '' ),
+    ( '' ),
+    'SwSTEP 2.0',
+    'SolidWorks 2023',
+    '' );
+FILE_SCHEMA (( 'AUTOMOTIVE_DESIGN' ));
+ENDSEC;
+
+DATA;
+#1 = PRODUCT ( 'Dif gear spacing ring', 'Dif gear spacing ring', '', ( #6 ) ) ;
+#2 = PRODUCT_DEFINITION_FORMATION_WITH_SPECIFIED_SOURCE ( 'ANY', '', #1, .NOT_KNOWN. ) ;
+#3 = PRODUCT_RELATED_PRODUCT_CATEGORY ( 'part', '', ( #1 ) ) ;
+#4 = PRODUCT_DEFINITION ( 'UNKNOWN', '', #2, #7 ) ;
+#5 = APPLICATION_PROTOCOL_DEFINITION ( 'draft international standard', 'automotive_design', 1998, #11 ) ;
+#6 = PRODUCT_CONTEXT ( 'NONE', #11, 'mechanical' ) ;
+#7 = PRODUCT_DEFINITION_CONTEXT ( 'detailed design', #8, 'design' ) ;
+#8 = APPLICATION_CONTEXT ( 'automotive_design' ) ;
+#9 = PRODUCT_DEFINITION_SHAPE ( 'NONE', 'NONE',  #4 ) ;
+#10 = APPLICATION_PROTOCOL_DEFINITION ( 'draft international standard', 'automotive_design', 1998, #8 ) ;
+#11 = APPLICATION_CONTEXT ( 'automotive_design' ) ;
+ENDSEC;
+END-ISO-10303-21;
