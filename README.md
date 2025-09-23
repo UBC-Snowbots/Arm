@@ -22,12 +22,13 @@ This repository contains the CAD models and design files for the 6 axis robotic 
 ```
 Arm/
 ├── Arm 2024-2025/       # CAD files for the 2024-2025 arm
+├── Arm 2025-2026/       # CAD files for the 2025-2026 arm
 ├── Drawings/            # Technical drawings, schematics, and exports
 ├── .gitignore
 └── README.md            # Project overview and documentation
 ```
 
-- **Arm 2024-2025/**: Latest CAD sources & URDFs.
+- **Arm 2025-2026/**: Latest CAD sources & URDFs.
 - **Drawings/**: Finished outputs such as PDFs, DXFs, and manufacturing diagrams.
 
 ---
