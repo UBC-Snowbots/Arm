@@ -6,10 +6,10 @@
 3. Store end effector testing / rnd PCB projects
 
 ## Directories:
-[/EE-PCB](".EE-PCB")
+[/EE-PCB](./EE-PCB)
 
-[/CAD]("./CAD")
+[/CAD](./CAD)
 
-[/RND]("../../RnD/pcb")
+[/RND](../../RnD/PCB)
 
 
