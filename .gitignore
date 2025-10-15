@@ -1,4 +1,3 @@
-*.swp
 # Ignores all files containing '$' (backup copies made by SOLIDWORKS) 
 *\$*
 Arm 2024-2025/End Effector/Tool Changer Prototypes/ball-bearing-mech-changer/~$14mm ball-bearing.SLDPRT
