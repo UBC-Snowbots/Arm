@@ -5,7 +5,7 @@ module hollow_ring_2d(inner_d, outer_d) {
     }
 }
 
-inner_base = 36 - 0.05;
+inner_base = 34 - 0.05;
 outer_base = 40 + 0.05;
 spacing = 45;
 
