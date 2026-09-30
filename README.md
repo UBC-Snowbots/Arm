@@ -103,5 +103,5 @@ Thanks to the entire team, especially software for making the arm work & chassis
 
 ## Contact
 For questions or feedback:
-- **Arm Team Lead 2025-26** – *(Eric, ekondor@student.ubc.ca)*
+- **Arm Team Leads 2026-27** – *(William Banquier: william.banquier@gmail.com, Matt Yung: yungco44@gmail.com)*
 - UBC Rover GitHub: [https://github.com/UBC-Snowbots](https://github.com/UBC-Snowbots)
