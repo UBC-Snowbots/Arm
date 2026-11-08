@@ -1,0 +1,8 @@
+﻿"small_link"= 15
+"linkage_distance"= "small_link" * 2
+"link"= "small_link" * 2.5
+"link_width"= 0.25in
+"link_thickness"= 5mm
+"set_to_set_distance"= 20mm
+"finger_pad_attach_thickness" = 50mm
+"large_link"= "small_link" * 5
