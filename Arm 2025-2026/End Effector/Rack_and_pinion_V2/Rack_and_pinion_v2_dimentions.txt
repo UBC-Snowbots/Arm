@@ -1,0 +1,8 @@
+﻿"wire_input_hole_dia" = 12mm
+"bolt_retaining_disk_dia" = 34mm
+"V-slot_depth" = 0.5mm
+"V-slot-width" = 1mm
+"Clearance_offset" = 0.2mm
+"interference_offset" = 0.1mm
+"Retaining_disk_thickness" = 2mm
+"camera_angle" = 20
